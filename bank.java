@@ -22,7 +22,18 @@ class bank{
 				System.out.print("\nMASUKKAN UANG: ");
 				int uang = scan.nextInt();
 				saldo = saldo + uang;
-				}			
+				}				
+			
+			else if(menu==2)
+			{ System.out.print("\nMASUKKAN UANG: ");
+				int uang = scan.nextInt();
+				saldo = saldo - uang;
+			}
+			
+			else if(menu==0)
+			{System.out.print("\nTERIMA KASIH");
+			}				
+			
 			else
 			System.out.print("\nINPUT SALAH");
 			}
